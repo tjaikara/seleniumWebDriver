@@ -12,6 +12,9 @@ public class BrowerInvocation
     public static void main(String [] args){
 
         System.out.println("Selenium world");
+        System.setProperty("webdriver.gecko.driver", "/Users/taikara/Downloads/geckodriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/taikara/Downloads/chromedriver");
+
 
         WebDriver webDriver = new ChromeDriver();
 
